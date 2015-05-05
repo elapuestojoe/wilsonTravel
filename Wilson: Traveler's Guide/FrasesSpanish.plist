@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Mi nombre es:</string>
+	<string>¿Puede hablar más lento?</string>
+	<string>¿Dónde puedo encontrar un bus/taxi?</string>
+	<string>¿Dónde puedo encontrar el metro?</string>
+	<string>¿Puede llevarme al aeropuerto, por favor?</string>
+	<string>¿Cuánto cuesta?</string>
+	<string>¿Acepta tarjetas de crédito?</string>
+	<string>¿Dónde está el baño más cercano?</string>
+	<string>¿Dónde puedo conseguir algo de comer?</string>
+	<string>¿Puede mostrarme en el mapa cómo llegar?</string>
+	<string>¿Podría escribir eso por mí?</string>
+	<string>Necesito ayuda</string>
+	<string>Estoy perdido</string>
+	<string>Por favor, llame a la policía</string>
+	<string>Necesito un doctor</string>
+	<string>Mi tipo de sangre es:</string>
+</array>
+</plist>

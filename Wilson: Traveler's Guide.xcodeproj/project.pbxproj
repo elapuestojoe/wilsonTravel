@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430484061AF7010500DBB5D0 /* bckWilson.png in Resources */ = {isa = PBXBuildFile; fileRef = 430483DC1AF7010500DBB5D0 /* bckWilson.png */; };
+		430484091AF7010500DBB5D0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483E01AF7010500DBB5D0 /* ThirdViewController.m */; };
+		4304840A1AF7010500DBB5D0 /* wilsonBueno.png in Resources */ = {isa = PBXBuildFile; fileRef = 430483E11AF7010500DBB5D0 /* wilsonBueno.png */; };
+		4304840B1AF7010500DBB5D0 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483E31AF7010500DBB5D0 /* OptionsViewController.m */; };
+		4304840C1AF7010500DBB5D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483E51AF7010500DBB5D0 /* AppDelegate.m */; };
+		4304840D1AF7010500DBB5D0 /* TelephonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483E71AF7010500DBB5D0 /* TelephonesViewController.m */; };
+		4304840E1AF7010500DBB5D0 /* ambulance.png in Resources */ = {isa = PBXBuildFile; fileRef = 430483E81AF7010500DBB5D0 /* ambulance.png */; };
+		4304840F1AF7010500DBB5D0 /* fireman.png in Resources */ = {isa = PBXBuildFile; fileRef = 430483E91AF7010500DBB5D0 /* fireman.png */; };
+		430484101AF7010500DBB5D0 /* police.png in Resources */ = {isa = PBXBuildFile; fileRef = 430483EA1AF7010500DBB5D0 /* police.png */; };
+		430484111AF7010500DBB5D0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483EC1AF7010500DBB5D0 /* FirstViewController.m */; };
+		430484121AF7010500DBB5D0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430483EE1AF7010500DBB5D0 /* SecondViewController.m */; };
+		430484131AF7010500DBB5D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430483EF1AF7010500DBB5D0 /* Main.storyboard */; };
+		430484141AF7010500DBB5D0 /* CambioMoneda.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F01AF7010500DBB5D0 /* CambioMoneda.plist */; };
+		430484151AF7010500DBB5D0 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F11AF7010500DBB5D0 /* Countries.plist */; };
+		430484161AF7010500DBB5D0 /* PaisesEuropa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F21AF7010500DBB5D0 /* PaisesEuropa.plist */; };
+		430484171AF7010500DBB5D0 /* IDPaises.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F31AF7010500DBB5D0 /* IDPaises.plist */; };
+		430484181AF7010500DBB5D0 /* CodigoCambio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F41AF7010500DBB5D0 /* CodigoCambio.plist */; };
+		430484191AF7010500DBB5D0 /* PaisesAmerica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F51AF7010500DBB5D0 /* PaisesAmerica.plist */; };
+		4304841A1AF7010500DBB5D0 /* NoticiasEuropa.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F61AF7010500DBB5D0 /* NoticiasEuropa.plist */; };
+		4304841B1AF7010500DBB5D0 /* NoticiasAmerica.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F71AF7010500DBB5D0 /* NoticiasAmerica.plist */; };
+		4304841C1AF7010500DBB5D0 /* PoliceNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F81AF7010500DBB5D0 /* PoliceNumbers.plist */; };
+		4304841D1AF7010500DBB5D0 /* IdiomaPorPais.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483F91AF7010500DBB5D0 /* IdiomaPorPais.plist */; };
+		4304841E1AF7010500DBB5D0 /* HealthNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FA1AF7010500DBB5D0 /* HealthNumbers.plist */; };
+		4304841F1AF7010500DBB5D0 /* FiremenNumbers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FB1AF7010500DBB5D0 /* FiremenNumbers.plist */; };
+		430484201AF7010500DBB5D0 /* Continentes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FC1AF7010500DBB5D0 /* Continentes.plist */; };
+		430484211AF7010500DBB5D0 /* FrasesSpanish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FD1AF7010500DBB5D0 /* FrasesSpanish.plist */; };
+		430484221AF7010500DBB5D0 /* FrasesEnglish.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FE1AF7010500DBB5D0 /* FrasesEnglish.plist */; };
+		430484231AF7010500DBB5D0 /* FrasesFrench.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430483FF1AF7010500DBB5D0 /* FrasesFrench.plist */; };
+		430484241AF7010500DBB5D0 /* FrasesGerman.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430484001AF7010500DBB5D0 /* FrasesGerman.plist */; };
+		430484251AF7010500DBB5D0 /* FrasesItalian.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430484011AF7010500DBB5D0 /* FrasesItalian.plist */; };
+		430484261AF7010500DBB5D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430484021AF7010500DBB5D0 /* Images.xcassets */; };
+		430484271AF7010500DBB5D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430484031AF7010500DBB5D0 /* LaunchScreen.xib */; };
+		4304842B1AF71F0200DBB5D0 /* WilsonFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4304842A1AF71C3000DBB5D0 /* WilsonFont.ttf */; };
+		4304842D1AF720A600DBB5D0 /* WilsonFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4304842A1AF71C3000DBB5D0 /* WilsonFont.ttf */; };
+		4304842F1AF7218800DBB5D0 /* fondoOpciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 4304842E1AF7218700DBB5D0 /* fondoOpciones.png */; };
+		430484311AF7238C00DBB5D0 /* fondoTelefonos.png in Resources */ = {isa = PBXBuildFile; fileRef = 430484301AF7238C00DBB5D0 /* fondoTelefonos.png */; };
+		430484331AF724E800DBB5D0 /* fondoConvertidor.png in Resources */ = {isa = PBXBuildFile; fileRef = 430484321AF724E800DBB5D0 /* fondoConvertidor.png */; };
+		430484351AF72ACF00DBB5D0 /* fondoFrases.png in Resources */ = {isa = PBXBuildFile; fileRef = 430484341AF72ACF00DBB5D0 /* fondoFrases.png */; };
+		430484371AF7479900DBB5D0 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 430484361AF7479900DBB5D0 /* Splash.png */; };
+		43B56F7D1AA4487D00C94844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B56F7C1AA4487D00C94844 /* main.m */; };
+		43B56F9A1AA4487D00C94844 /* Wilson__Traveler_s_GuideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B56F991AA4487D00C94844 /* Wilson__Traveler_s_GuideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B56F941AA4487D00C94844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B56F6F1AA4487C00C94844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B56F761AA4487C00C94844;
+			remoteInfo = "Wilson: Traveler's Guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		430483DC1AF7010500DBB5D0 /* bckWilson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bckWilson.png; sourceTree = "<group>"; };
+		430483DF1AF7010500DBB5D0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		430483E01AF7010500DBB5D0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		430483E11AF7010500DBB5D0 /* wilsonBueno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wilsonBueno.png; sourceTree = "<group>"; };
+		430483E21AF7010500DBB5D0 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		430483E31AF7010500DBB5D0 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		430483E41AF7010500DBB5D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		430483E51AF7010500DBB5D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		430483E61AF7010500DBB5D0 /* TelephonesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephonesViewController.h; sourceTree = "<group>"; };
+		430483E71AF7010500DBB5D0 /* TelephonesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelephonesViewController.m; sourceTree = "<group>"; };
+		430483E81AF7010500DBB5D0 /* ambulance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulance.png; sourceTree = "<group>"; };
+		430483E91AF7010500DBB5D0 /* fireman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireman.png; sourceTree = "<group>"; };
+		430483EA1AF7010500DBB5D0 /* police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = police.png; sourceTree = "<group>"; };
+		430483EB1AF7010500DBB5D0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		430483EC1AF7010500DBB5D0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		430483ED1AF7010500DBB5D0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		430483EE1AF7010500DBB5D0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		430483EF1AF7010500DBB5D0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		430483F01AF7010500DBB5D0 /* CambioMoneda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CambioMoneda.plist; sourceTree = "<group>"; };
+		430483F11AF7010500DBB5D0 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		430483F21AF7010500DBB5D0 /* PaisesEuropa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PaisesEuropa.plist; sourceTree = "<group>"; };
+		430483F31AF7010500DBB5D0 /* IDPaises.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IDPaises.plist; sourceTree = "<group>"; };
+		430483F41AF7010500DBB5D0 /* CodigoCambio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CodigoCambio.plist; sourceTree = "<group>"; };
+		430483F51AF7010500DBB5D0 /* PaisesAmerica.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PaisesAmerica.plist; sourceTree = "<group>"; };
+		430483F61AF7010500DBB5D0 /* NoticiasEuropa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NoticiasEuropa.plist; sourceTree = "<group>"; };
+		430483F71AF7010500DBB5D0 /* NoticiasAmerica.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NoticiasAmerica.plist; sourceTree = "<group>"; };
+		430483F81AF7010500DBB5D0 /* PoliceNumbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PoliceNumbers.plist; sourceTree = "<group>"; };
+		430483F91AF7010500DBB5D0 /* IdiomaPorPais.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IdiomaPorPais.plist; sourceTree = "<group>"; };
+		430483FA1AF7010500DBB5D0 /* HealthNumbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HealthNumbers.plist; sourceTree = "<group>"; };
+		430483FB1AF7010500DBB5D0 /* FiremenNumbers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FiremenNumbers.plist; sourceTree = "<group>"; };
+		430483FC1AF7010500DBB5D0 /* Continentes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Continentes.plist; sourceTree = "<group>"; };
+		430483FD1AF7010500DBB5D0 /* FrasesSpanish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrasesSpanish.plist; sourceTree = "<group>"; };
+		430483FE1AF7010500DBB5D0 /* FrasesEnglish.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrasesEnglish.plist; sourceTree = "<group>"; };
+		430483FF1AF7010500DBB5D0 /* FrasesFrench.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrasesFrench.plist; sourceTree = "<group>"; };
+		430484001AF7010500DBB5D0 /* FrasesGerman.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrasesGerman.plist; sourceTree = "<group>"; };
+		430484011AF7010500DBB5D0 /* FrasesItalian.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrasesItalian.plist; sourceTree = "<group>"; };
+		430484021AF7010500DBB5D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		430484031AF7010500DBB5D0 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		4304842A1AF71C3000DBB5D0 /* WilsonFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WilsonFont.ttf; sourceTree = "<group>"; };
+		4304842E1AF7218700DBB5D0 /* fondoOpciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoOpciones.png; sourceTree = "<group>"; };
+		430484301AF7238C00DBB5D0 /* fondoTelefonos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoTelefonos.png; sourceTree = "<group>"; };
+		430484321AF724E800DBB5D0 /* fondoConvertidor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoConvertidor.png; sourceTree = "<group>"; };
+		430484341AF72ACF00DBB5D0 /* fondoFrases.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoFrases.png; sourceTree = "<group>"; };
+		430484361AF7479900DBB5D0 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		43B56F771AA4487D00C94844 /* Wilson: Traveler's Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wilson: Traveler's Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B56F7B1AA4487D00C94844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B56F7C1AA4487D00C94844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43B56F931AA4487D00C94844 /* Wilson: Traveler's GuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wilson: Traveler's GuideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B56F981AA4487D00C94844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B56F991AA4487D00C94844 /* Wilson__Traveler_s_GuideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wilson__Traveler_s_GuideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B56F741AA4487C00C94844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B56F901AA4487D00C94844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B56F6E1AA4487C00C94844 = {
+			isa = PBXGroup;
+			children = (
+				43B56F791AA4487D00C94844 /* Wilson: Traveler's Guide */,
+				43B56F961AA4487D00C94844 /* Wilson: Traveler's GuideTests */,
+				43B56F781AA4487D00C94844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B56F781AA4487D00C94844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B56F771AA4487D00C94844 /* Wilson: Traveler's Guide.app */,
+				43B56F931AA4487D00C94844 /* Wilson: Traveler's GuideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B56F791AA4487D00C94844 /* Wilson: Traveler's Guide */ = {
+			isa = PBXGroup;
+			children = (
+				430484361AF7479900DBB5D0 /* Splash.png */,
+				430483DC1AF7010500DBB5D0 /* bckWilson.png */,
+				430484341AF72ACF00DBB5D0 /* fondoFrases.png */,
+				430483DF1AF7010500DBB5D0 /* ThirdViewController.h */,
+				430483E01AF7010500DBB5D0 /* ThirdViewController.m */,
+				430483E11AF7010500DBB5D0 /* wilsonBueno.png */,
+				4304842E1AF7218700DBB5D0 /* fondoOpciones.png */,
+				430483E21AF7010500DBB5D0 /* OptionsViewController.h */,
+				430483E31AF7010500DBB5D0 /* OptionsViewController.m */,
+				430483E41AF7010500DBB5D0 /* AppDelegate.h */,
+				430483E51AF7010500DBB5D0 /* AppDelegate.m */,
+				430484301AF7238C00DBB5D0 /* fondoTelefonos.png */,
+				430483E61AF7010500DBB5D0 /* TelephonesViewController.h */,
+				430483E71AF7010500DBB5D0 /* TelephonesViewController.m */,
+				430483E81AF7010500DBB5D0 /* ambulance.png */,
+				430483E91AF7010500DBB5D0 /* fireman.png */,
+				430483EA1AF7010500DBB5D0 /* police.png */,
+				430483EB1AF7010500DBB5D0 /* FirstViewController.h */,
+				430483EC1AF7010500DBB5D0 /* FirstViewController.m */,
+				430484321AF724E800DBB5D0 /* fondoConvertidor.png */,
+				430483ED1AF7010500DBB5D0 /* SecondViewController.h */,
+				430483EE1AF7010500DBB5D0 /* SecondViewController.m */,
+				430483EF1AF7010500DBB5D0 /* Main.storyboard */,
+				430483F01AF7010500DBB5D0 /* CambioMoneda.plist */,
+				430483F11AF7010500DBB5D0 /* Countries.plist */,
+				430483F21AF7010500DBB5D0 /* PaisesEuropa.plist */,
+				430483F31AF7010500DBB5D0 /* IDPaises.plist */,
+				430483F41AF7010500DBB5D0 /* CodigoCambio.plist */,
+				430483F51AF7010500DBB5D0 /* PaisesAmerica.plist */,
+				430483F61AF7010500DBB5D0 /* NoticiasEuropa.plist */,
+				430483F71AF7010500DBB5D0 /* NoticiasAmerica.plist */,
+				430483F81AF7010500DBB5D0 /* PoliceNumbers.plist */,
+				430483F91AF7010500DBB5D0 /* IdiomaPorPais.plist */,
+				430483FA1AF7010500DBB5D0 /* HealthNumbers.plist */,
+				430483FB1AF7010500DBB5D0 /* FiremenNumbers.plist */,
+				430483FC1AF7010500DBB5D0 /* Continentes.plist */,
+				430483FD1AF7010500DBB5D0 /* FrasesSpanish.plist */,
+				4304842A1AF71C3000DBB5D0 /* WilsonFont.ttf */,
+				430483FE1AF7010500DBB5D0 /* FrasesEnglish.plist */,
+				430483FF1AF7010500DBB5D0 /* FrasesFrench.plist */,
+				430484001AF7010500DBB5D0 /* FrasesGerman.plist */,
+				430484011AF7010500DBB5D0 /* FrasesItalian.plist */,
+				430484021AF7010500DBB5D0 /* Images.xcassets */,
+				430484031AF7010500DBB5D0 /* LaunchScreen.xib */,
+				43B56F7A1AA4487D00C94844 /* Supporting Files */,
+			);
+			path = "Wilson: Traveler's Guide";
+			sourceTree = "<group>";
+		};
+		43B56F7A1AA4487D00C94844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B56F7B1AA4487D00C94844 /* Info.plist */,
+				43B56F7C1AA4487D00C94844 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43B56F961AA4487D00C94844 /* Wilson: Traveler's GuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				43B56F991AA4487D00C94844 /* Wilson__Traveler_s_GuideTests.m */,
+				43B56F971AA4487D00C94844 /* Supporting Files */,
+			);
+			path = "Wilson: Traveler's GuideTests";
+			sourceTree = "<group>";
+		};
+		43B56F971AA4487D00C94844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43B56F981AA4487D00C94844 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B56F761AA4487C00C94844 /* Wilson: Traveler's Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B56F9D1AA4487D00C94844 /* Build configuration list for PBXNativeTarget "Wilson: Traveler's Guide" */;
+			buildPhases = (
+				43B56F731AA4487C00C94844 /* Sources */,
+				43B56F741AA4487C00C94844 /* Frameworks */,
+				43B56F751AA4487C00C94844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wilson: Traveler's Guide";
+			productName = "Wilson: Traveler's Guide";
+			productReference = 43B56F771AA4487D00C94844 /* Wilson: Traveler's Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B56F921AA4487D00C94844 /* Wilson: Traveler's GuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B56FA01AA4487D00C94844 /* Build configuration list for PBXNativeTarget "Wilson: Traveler's GuideTests" */;
+			buildPhases = (
+				43B56F8F1AA4487D00C94844 /* Sources */,
+				43B56F901AA4487D00C94844 /* Frameworks */,
+				43B56F911AA4487D00C94844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B56F951AA4487D00C94844 /* PBXTargetDependency */,
+			);
+			name = "Wilson: Traveler's GuideTests";
+			productName = "Wilson: Traveler's GuideTests";
+			productReference = 43B56F931AA4487D00C94844 /* Wilson: Traveler's GuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B56F6F1AA4487C00C94844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kevin Islas Abud";
+				TargetAttributes = {
+					43B56F761AA4487C00C94844 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					43B56F921AA4487D00C94844 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 43B56F761AA4487C00C94844;
+					};
+				};
+			};
+			buildConfigurationList = 43B56F721AA4487C00C94844 /* Build configuration list for PBXProject "Wilson: Traveler's Guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B56F6E1AA4487C00C94844;
+			productRefGroup = 43B56F781AA4487D00C94844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B56F761AA4487C00C94844 /* Wilson: Traveler's Guide */,
+				43B56F921AA4487D00C94844 /* Wilson: Traveler's GuideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B56F751AA4487C00C94844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304840F1AF7010500DBB5D0 /* fireman.png in Resources */,
+				430484151AF7010500DBB5D0 /* Countries.plist in Resources */,
+				430484131AF7010500DBB5D0 /* Main.storyboard in Resources */,
+				430484161AF7010500DBB5D0 /* PaisesEuropa.plist in Resources */,
+				430484191AF7010500DBB5D0 /* PaisesAmerica.plist in Resources */,
+				430484221AF7010500DBB5D0 /* FrasesEnglish.plist in Resources */,
+				430484211AF7010500DBB5D0 /* FrasesSpanish.plist in Resources */,
+				4304842B1AF71F0200DBB5D0 /* WilsonFont.ttf in Resources */,
+				430484201AF7010500DBB5D0 /* Continentes.plist in Resources */,
+				430484271AF7010500DBB5D0 /* LaunchScreen.xib in Resources */,
+				430484331AF724E800DBB5D0 /* fondoConvertidor.png in Resources */,
+				430484061AF7010500DBB5D0 /* bckWilson.png in Resources */,
+				430484351AF72ACF00DBB5D0 /* fondoFrases.png in Resources */,
+				430484231AF7010500DBB5D0 /* FrasesFrench.plist in Resources */,
+				430484311AF7238C00DBB5D0 /* fondoTelefonos.png in Resources */,
+				430484371AF7479900DBB5D0 /* Splash.png in Resources */,
+				430484171AF7010500DBB5D0 /* IDPaises.plist in Resources */,
+				430484101AF7010500DBB5D0 /* police.png in Resources */,
+				4304841A1AF7010500DBB5D0 /* NoticiasEuropa.plist in Resources */,
+				4304841F1AF7010500DBB5D0 /* FiremenNumbers.plist in Resources */,
+				4304841C1AF7010500DBB5D0 /* PoliceNumbers.plist in Resources */,
+				430484241AF7010500DBB5D0 /* FrasesGerman.plist in Resources */,
+				430484141AF7010500DBB5D0 /* CambioMoneda.plist in Resources */,
+				4304840E1AF7010500DBB5D0 /* ambulance.png in Resources */,
+				430484181AF7010500DBB5D0 /* CodigoCambio.plist in Resources */,
+				4304840A1AF7010500DBB5D0 /* wilsonBueno.png in Resources */,
+				4304842F1AF7218800DBB5D0 /* fondoOpciones.png in Resources */,
+				4304841D1AF7010500DBB5D0 /* IdiomaPorPais.plist in Resources */,
+				4304841B1AF7010500DBB5D0 /* NoticiasAmerica.plist in Resources */,
+				430484261AF7010500DBB5D0 /* Images.xcassets in Resources */,
+				4304841E1AF7010500DBB5D0 /* HealthNumbers.plist in Resources */,
+				430484251AF7010500DBB5D0 /* FrasesItalian.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B56F911AA4487D00C94844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304842D1AF720A600DBB5D0 /* WilsonFont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B56F731AA4487C00C94844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4304840D1AF7010500DBB5D0 /* TelephonesViewController.m in Sources */,
+				430484111AF7010500DBB5D0 /* FirstViewController.m in Sources */,
+				4304840C1AF7010500DBB5D0 /* AppDelegate.m in Sources */,
+				430484121AF7010500DBB5D0 /* SecondViewController.m in Sources */,
+				430484091AF7010500DBB5D0 /* ThirdViewController.m in Sources */,
+				43B56F7D1AA4487D00C94844 /* main.m in Sources */,
+				4304840B1AF7010500DBB5D0 /* OptionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B56F8F1AA4487D00C94844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B56F9A1AA4487D00C94844 /* Wilson__Traveler_s_GuideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B56F951AA4487D00C94844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B56F761AA4487C00C94844 /* Wilson: Traveler's Guide */;
+			targetProxy = 43B56F941AA4487D00C94844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43B56F9B1AA4487D00C94844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43B56F9C1AA4487D00C94844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B56F9E1AA4487D00C94844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wilson: Traveler's Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		43B56F9F1AA4487D00C94844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wilson: Traveler's Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		43B56FA11AA4487D00C94844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wilson: Traveler's GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilson: Traveler's Guide.app/Wilson: Traveler's Guide";
+			};
+			name = Debug;
+		};
+		43B56FA21AA4487D00C94844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wilson: Traveler's GuideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wilson: Traveler's Guide.app/Wilson: Traveler's Guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B56F721AA4487C00C94844 /* Build configuration list for PBXProject "Wilson: Traveler's Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B56F9B1AA4487D00C94844 /* Debug */,
+				43B56F9C1AA4487D00C94844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B56F9D1AA4487D00C94844 /* Build configuration list for PBXNativeTarget "Wilson: Traveler's Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B56F9E1AA4487D00C94844 /* Debug */,
+				43B56F9F1AA4487D00C94844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B56FA01AA4487D00C94844 /* Build configuration list for PBXNativeTarget "Wilson: Traveler's GuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B56FA11AA4487D00C94844 /* Debug */,
+				43B56FA21AA4487D00C94844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B56F6F1AA4487C00C94844 /* Project object */;
+}
