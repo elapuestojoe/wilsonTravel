@@ -63,8 +63,8 @@
     
     self.tabBarController.delegate = self;
     
-    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bckWilson.png"]];
-    [self.view insertSubview:backgroundView atIndex:0];
+    //UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bckWilson.png"]];
+    //[self.view insertSubview:backgroundView atIndex:0];
     
     self.newsLabel.font = [UIFont fontWithName:@"DJBStraightUpNow" size:28];
     

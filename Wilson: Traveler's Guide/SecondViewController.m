@@ -91,7 +91,7 @@
     
     double resultado = moneda/conversion * divisor;
     
-    NSString *str = [NSString stringWithFormat:@"%f %@", resultado, _monedaSeleccionada];
+    NSString *str = [NSString stringWithFormat:@"%.02f %@", resultado, _monedaSeleccionada];
     
     _resultLabel.text = str;
     
@@ -107,8 +107,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //Background
-    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fondoConvertidor.png"]];
-    [self.view insertSubview:backgroundView atIndex:0];
+    //UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fondoConvertidor.png"]];
+    //[self.view insertSubview:backgroundView atIndex:0];
     
     //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"wilsonBueno"]];
     

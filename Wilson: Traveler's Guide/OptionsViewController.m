@@ -27,8 +27,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fondoOpciones.png"]];
-    [self.view insertSubview:backgroundView atIndex:0];
+    //UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fondoOpciones.png"]];
+    //[self.view insertSubview:backgroundView atIndex:0];
     
     //
     NSString *pathForContinents = [[NSBundle mainBundle] pathForResource:@"Continentes" ofType:@"plist"];
